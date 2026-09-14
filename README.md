@@ -15,7 +15,7 @@
 
 ---
 
-> 🔁 **Rebuilding here after a platform account issue on my previous profile [github/Qasim-Akram](https://github.com/Qasim-Akram).** Same person, same work — see pinned repos below for active projects.
+> 🔁 **Rebuilding here after a platform account issue on my previous profile. [github/Qasim-Akram](https://github.com/Qasim-Akram)** Same person, same work — see pinned repos below for active projects.
 
 ---
 
@@ -165,12 +165,8 @@ $ cat stats.log
 ```
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=M-Qasim-Akram&theme=tokyonight" width="95%" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=M-Qasim-Akram&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=M-Qasim-Akram&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=M-Qasim-Akram&theme=tokyonight" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=M-Qasim-Akram&show_icons=true&theme=tokyonight&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Qasim-Akram&layout=compact&theme=tokyonight" width="38%" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=M-Qasim-Akram&theme=tokyonight&hide_border=true" width="60%" />
