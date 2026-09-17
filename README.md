@@ -107,7 +107,7 @@ $ cat tech-stack.sh
 $ ls -la projects/
 ```
 
-### 💬 [ChatRoom](https://github.com/M-Qasim-Akram/ChatRoom) — Real-Time Chat System
+### 💬 [ChatRoom](https://github.com/Muhammad-Qasim-Akram/ChatRoom) — Real-Time Chat System
 
 ```
 > Real-time messaging with WebSockets
@@ -123,7 +123,7 @@ $ ls -la projects/
 
 ---
 
-### 👁️ [EyeSpy](https://github.com/M-Qasim-Akram/EyeSpy) — Blind Assistance System
+### 👁️ [EyeSpy](https://github.com/Muhammad-Qasim-Akram/EyeSpy) — Blind Assistance System
 
 ```
 > Real-time object detection from live camera feed
@@ -137,7 +137,7 @@ $ ls -la projects/
 
 ---
 
-### 🤖 [DevChat](https://github.com/M-Qasim-Akram/DevChat) — Local AI Dev Assistant
+### 🤖 [DevChat](https://github.com/Muhammad-Qasim-Akram/DevChat) — Local AI Dev Assistant
 
 ```
 > AI assistant that runs fully on-device, no API keys
@@ -149,7 +149,7 @@ $ ls -la projects/
 
 ---
 
-### 🛒 [yourOwn-ecommerce](https://github.com/M-Qasim-Akram/yourOwn-Ecommerce-store) — Full Stack Store
+### 🛒 [yourOwn-ecommerce](https://github.com/Muhammad-Qasim-Akram/yourOwn-Ecommerce-store) — Full Stack Store
 
 ```
 > Cart, orders, checkout — the full flow
@@ -165,11 +165,31 @@ $ cat stats.log
 ```
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=M-Qasim-Akram&show_icons=true&theme=tokyonight&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Qasim-Akram&layout=compact&theme=tokyonight" width="38%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Muhammad-Qasim-Akram&show_icons=true&theme=tokyonight&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muhammad-Qasim-Akram&layout=compact&theme=tokyonight" width="38%" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=M-Qasim-Akram&theme=tokyonight&hide_border=true" width="60%" />
+  <img src="https://streak-stats.demolab.com?user=Muhammad-Qasim-Akram&theme=tokyonight&hide_border=true" width="60%" />
+</p>
+
+---
+
+```bash
+$ cat trophies.log
+```
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Muhammad-Qasim-Akram&theme=tokyonight&no-frame=true&row=1&column=6" width="90%" />
+</p>
+
+---
+
+```bash
+$ cat activity.log
+```
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Muhammad-Qasim-Akram&theme=tokyo-night&hide_border=true" width="90%" />
 </p>
 
 ---
@@ -193,7 +213,7 @@ $ cat connect.sh
 
 <pre>
 LinkedIn  → <a href="https://linkedin.com/in/qasimakram">https://linkedin.com/in/qasimakram</a>
-GitHub    → <a href="https://github.com/M-Qasim-Akram">https://github.com/M-Qasim-Akram</a>
+GitHub    → <a href="https://github.com/Muhammad-Qasim-Akram">https://github.com/Muhammad-Qasim-Akram</a>
 X         → <a href="https://x.com/@Qasim_Akram46">https://x.com/@Qasim_Akram46</a>
 Medium    → <a href="https://medium.com/@qasimakram">https://medium.com/@qasimakram</a>
 Portfolio → <a href="https://qasim-akram.netlify.app">https://qasim-akram.netlify.app</a>
