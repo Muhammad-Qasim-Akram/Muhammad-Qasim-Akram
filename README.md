@@ -147,9 +147,9 @@ I also keep a fork of [Classipod](https://github.com/adeeteya/Classipod) by Adit
 
 ## Right now
 
-- Finishing an equalizer for my Flutter music player, then synced lyrics, then Chromecast
+- Making production ready back-ends using .Net
 - Going deeper on React and Next.js
-- Looking into Roman Urdu and Urdu speech and language models
+- making things easier using agentic ai
 
 ## Education and certificates
 
