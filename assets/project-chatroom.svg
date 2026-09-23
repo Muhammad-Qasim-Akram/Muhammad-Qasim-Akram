@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240">
+<defs>
+<linearGradient id="b0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0a3c2a"/></linearGradient>
+<clipPath id="k0"><rect width="220" height="168" rx="10"/></clipPath>
+</defs>
+<style>
+.pop{animation:pop 6s ease-in-out infinite both}
+@keyframes pop{0%{opacity:0;transform:translateY(8px)}8%,86%{opacity:1;transform:translateY(0)}96%,100%{opacity:0}}
+.dot{animation:dot 1.2s infinite}
+@keyframes dot{0%,100%{opacity:.25}50%{opacity:1}}
+.blink{animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 6s ease-out infinite both}
+@keyframes grow{0%{transform:scaleX(0)}25%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.up{transform-box:fill-box;transform-origin:center bottom;animation:up 4.5s ease-out infinite both}
+@keyframes up{0%{transform:scaleY(0)}30%,88%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.scan{animation:scan 2.8s ease-in-out infinite alternate}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(118px)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+.draw{stroke-dasharray:300;stroke-dashoffset:300;animation:draw 5s ease-out infinite}
+@keyframes draw{0%{stroke-dashoffset:300;opacity:1}55%,88%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.fc{animation:fc 5s ease-out infinite both}
+@keyframes fc{0%,50%{opacity:0}62%,88%{opacity:1}100%{opacity:0}}
+.bob{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style>
+<rect x=".5" y=".5" width="599" height="239" rx="16" fill="url(#b0)" stroke="#00e676" stroke-opacity=".55"/>
+<text x="28" y="46" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="13" fill="#00e676" fill-opacity=".8">001</text>
+<text x="28" y="84" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="29" font-weight="700" fill="#ffffff">ChatRoom</text>
+<rect x="28" y="96" width="40" height="3" rx="1.5" fill="#00e676"><animate attributeName="width" values="40;140;40" dur="4s" repeatCount="indefinite"/></rect>
+<text x="28" y="126" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#9fb3c8">Real-time chat with rooms, reactions</text>
+<text x="28" y="146" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#9fb3c8">and live notifications.</text>
+<rect x="28.0" y="184" width="65.6" height="24" rx="12" fill="#00e676" fill-opacity=".12" stroke="#00e676" stroke-opacity=".6"/><text x="60.8" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#00e676">Django</text><rect x="101.6" y="184" width="80.8" height="24" rx="12" fill="#00e676" fill-opacity=".12" stroke="#00e676" stroke-opacity=".6"/><text x="142.0" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#00e676">Channels</text><rect x="190.4" y="184" width="58.0" height="24" rx="12" fill="#00e676" fill-opacity=".12" stroke="#00e676" stroke-opacity=".6"/><text x="219.4" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#00e676">Redis</text><rect x="256.4" y="184" width="58.0" height="24" rx="12" fill="#00e676" fill-opacity=".12" stroke="#00e676" stroke-opacity=".6"/><text x="285.4" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#00e676">React</text>
+<g transform="translate(356,36)">
+<g clip-path="url(#k0)">
+<rect width="220" height="168" fill="#0a0e14"/>
+<g class="pop" style="animation-delay:0s"><rect x="12" y="34" width="124" height="26" rx="10" fill="#1c2733"/><rect x="22" y="42" width="86" height="4" rx="2" fill="#5b6b7b"/><rect x="22" y="50" width="52" height="4" rx="2" fill="#5b6b7b"/></g><g class="pop" style="animation-delay:1.2s"><rect x="84" y="68" width="124" height="26" rx="10" fill="#00e676"/><rect x="94" y="76" width="86" height="4" rx="2" fill="#0a0e14"/><rect x="94" y="84" width="52" height="4" rx="2" fill="#0a0e14"/></g><g class="pop" style="animation-delay:2.4s"><rect x="12" y="102" width="96" height="26" rx="10" fill="#1c2733"/><rect x="22" y="110" width="58" height="4" rx="2" fill="#5b6b7b"/><rect x="22" y="118" width="35" height="4" rx="2" fill="#5b6b7b"/></g><rect x="10" y="140" width="200" height="20" rx="10" fill="#111823"/><rect x="22" y="148" width="70" height="4" rx="2" fill="#3a4654"/><circle class="dot" style="animation-delay:0.0s" cx="178" cy="150" r="3" fill="#00e676"/><circle class="dot" style="animation-delay:0.2s" cx="189" cy="150" r="3" fill="#00e676"/><circle class="dot" style="animation-delay:0.4s" cx="200" cy="150" r="3" fill="#00e676"/>
+<rect width="220" height="22" fill="#111823"/>
+<circle cx="14" cy="11" r="3.5" fill="#ff5f56"/><circle cx="27" cy="11" r="3.5" fill="#ffbd2e"/><circle cx="40" cy="11" r="3.5" fill="#27c93f"/>
+</g>
+<rect width="220" height="168" rx="10" fill="none" stroke="#00e676" stroke-opacity=".5"/>
+</g>
+</svg>

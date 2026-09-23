@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240">
+<defs>
+<linearGradient id="b1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#2c2944"/></linearGradient>
+<clipPath id="k1"><rect width="220" height="168" rx="10"/></clipPath>
+</defs>
+<style>
+.pop{animation:pop 6s ease-in-out infinite both}
+@keyframes pop{0%{opacity:0;transform:translateY(8px)}8%,86%{opacity:1;transform:translateY(0)}96%,100%{opacity:0}}
+.dot{animation:dot 1.2s infinite}
+@keyframes dot{0%,100%{opacity:.25}50%{opacity:1}}
+.blink{animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 6s ease-out infinite both}
+@keyframes grow{0%{transform:scaleX(0)}25%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.up{transform-box:fill-box;transform-origin:center bottom;animation:up 4.5s ease-out infinite both}
+@keyframes up{0%{transform:scaleY(0)}30%,88%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.scan{animation:scan 2.8s ease-in-out infinite alternate}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(118px)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+.draw{stroke-dasharray:300;stroke-dashoffset:300;animation:draw 5s ease-out infinite}
+@keyframes draw{0%{stroke-dashoffset:300;opacity:1}55%,88%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.fc{animation:fc 5s ease-out infinite both}
+@keyframes fc{0%,50%{opacity:0}62%,88%{opacity:1}100%{opacity:0}}
+.bob{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style>
+<rect x=".5" y=".5" width="599" height="239" rx="16" fill="url(#b1)" stroke="#a78bfa" stroke-opacity=".55"/>
+<text x="28" y="46" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="13" fill="#a78bfa" fill-opacity=".8">002</text>
+<text x="28" y="84" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="29" font-weight="700" fill="#ffffff">DevChat</text>
+<rect x="28" y="96" width="40" height="3" rx="1.5" fill="#a78bfa"><animate attributeName="width" values="40;140;40" dur="4s" repeatCount="indefinite"/></rect>
+<text x="28" y="126" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#9fb3c8">AI assistant for developers with</text>
+<text x="28" y="146" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#9fb3c8">context memory and streaming.</text>
+<rect x="28.0" y="184" width="58.0" height="24" rx="12" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".6"/><text x="57.0" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#a78bfa">React</text><rect x="94.0" y="184" width="73.2" height="24" rx="12" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".6"/><text x="130.6" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#a78bfa">Node.js</text><rect x="175.2" y="184" width="73.2" height="24" rx="12" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".6"/><text x="211.8" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#a78bfa">LLaMA 3</text>
+<g transform="translate(356,36)">
+<g clip-path="url(#k1)">
+<rect width="220" height="168" fill="#0a0e14"/>
+<rect x="12" y="32" width="70" height="7" rx="3" fill="#a78bfa"/><rect class="grow" style="animation-delay:0.5s" x="12" y="50" width="190" height="6" rx="3" fill="#3a4654"/><rect class="grow" style="animation-delay:0.95s" x="12" y="63" width="168" height="6" rx="3" fill="#3a4654"/><rect class="grow" style="animation-delay:1.4s" x="12" y="76" width="196" height="6" rx="3" fill="#3a4654"/><rect class="grow" style="animation-delay:1.85s" x="12" y="89" width="120" height="6" rx="3" fill="#3a4654"/><rect class="grow" style="animation-delay:2.3s" x="12" y="102" width="150" height="6" rx="3" fill="#3a4654"/><rect class="blink" x="166" y="113" width="8" height="12" fill="#a78bfa"/><rect x="12" y="128" width="196" height="30" rx="6" fill="#111823"/><rect x="22" y="137" width="60" height="4" rx="2" fill="#a78bfa"/><rect x="22" y="146" width="100" height="4" rx="2" fill="#5b6b7b"/>
+<rect width="220" height="22" fill="#111823"/>
+<circle cx="14" cy="11" r="3.5" fill="#ff5f56"/><circle cx="27" cy="11" r="3.5" fill="#ffbd2e"/><circle cx="40" cy="11" r="3.5" fill="#27c93f"/>
+</g>
+<rect width="220" height="168" rx="10" fill="none" stroke="#a78bfa" stroke-opacity=".5"/>
+</g>
+</svg>

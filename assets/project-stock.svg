@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240">
+<defs>
+<linearGradient id="b4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#3d3112"/></linearGradient>
+<clipPath id="k4"><rect width="220" height="168" rx="10"/></clipPath>
+</defs>
+<style>
+.pop{animation:pop 6s ease-in-out infinite both}
+@keyframes pop{0%{opacity:0;transform:translateY(8px)}8%,86%{opacity:1;transform:translateY(0)}96%,100%{opacity:0}}
+.dot{animation:dot 1.2s infinite}
+@keyframes dot{0%,100%{opacity:.25}50%{opacity:1}}
+.blink{animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 6s ease-out infinite both}
+@keyframes grow{0%{transform:scaleX(0)}25%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.up{transform-box:fill-box;transform-origin:center bottom;animation:up 4.5s ease-out infinite both}
+@keyframes up{0%{transform:scaleY(0)}30%,88%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.scan{animation:scan 2.8s ease-in-out infinite alternate}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(118px)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+.draw{stroke-dasharray:300;stroke-dashoffset:300;animation:draw 5s ease-out infinite}
+@keyframes draw{0%{stroke-dashoffset:300;opacity:1}55%,88%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.fc{animation:fc 5s ease-out infinite both}
+@keyframes fc{0%,50%{opacity:0}62%,88%{opacity:1}100%{opacity:0}}
+.bob{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style>
+<rect x=".5" y=".5" width="599" height="239" rx="16" fill="url(#b4)" stroke="#ffb300" stroke-opacity=".55"/>
+<text x="28" y="46" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="13" fill="#ffb300" fill-opacity=".8">005</text>
+<text x="28" y="84" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="29" font-weight="700" fill="#ffffff">Minimal Analysis</text>
+<rect x="28" y="96" width="40" height="3" rx="1.5" fill="#ffb300"><animate attributeName="width" values="40;140;40" dur="4s" repeatCount="indefinite"/></rect>
+<text x="28" y="126" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#9fb3c8">Stock price analysis with LLaMA on</text>
+<text x="28" y="146" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#9fb3c8">Groq, using live market data.</text>
+<rect x="28.0" y="184" width="73.2" height="24" rx="12" fill="#ffb300" fill-opacity=".12" stroke="#ffb300" stroke-opacity=".6"/><text x="64.6" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#ffb300">Express</text><rect x="109.2" y="184" width="50.4" height="24" rx="12" fill="#ffb300" fill-opacity=".12" stroke="#ffb300" stroke-opacity=".6"/><text x="134.4" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#ffb300">Groq</text><rect x="167.6" y="184" width="58.0" height="24" rx="12" fill="#ffb300" fill-opacity=".12" stroke="#ffb300" stroke-opacity=".6"/><text x="196.6" y="200" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,monospace" font-size="12.5" fill="#ffb300">LLaMA</text>
+<g transform="translate(356,36)">
+<g clip-path="url(#k4)">
+<rect width="220" height="168" fill="#0a0e14"/>
+<line x1="20" y1="50" x2="210" y2="50" stroke="#1a2530"/><line x1="20" y1="80" x2="210" y2="80" stroke="#1a2530"/><line x1="20" y1="110" x2="210" y2="110" stroke="#1a2530"/><line x1="20" y1="30" x2="20" y2="140" stroke="#3a4654"/><line x1="20" y1="140" x2="210" y2="140" stroke="#3a4654"/><path class="draw" d="M20,124 L44,112 L68,119 L92,92 L116,100 L140,72" fill="none" stroke="#ffb300" stroke-width="2.4" stroke-linejoin="round"/><path class="fc" d="M140,72 L164,60 L190,44" fill="none" stroke="#ffb300" stroke-width="2" stroke-dasharray="4 4"/><g class="fc"><circle class="pulse" cx="190" cy="44" r="4.5" fill="#ffb300"/><text x="196" y="38" text-anchor="end" font-family="monospace" font-size="9" fill="#ffb300">forecast</text></g><text x="26" y="154" font-family="monospace" font-size="8" fill="#5b6b7b">history</text>
+<rect width="220" height="22" fill="#111823"/>
+<circle cx="14" cy="11" r="3.5" fill="#ff5f56"/><circle cx="27" cy="11" r="3.5" fill="#ffbd2e"/><circle cx="40" cy="11" r="3.5" fill="#27c93f"/>
+</g>
+<rect width="220" height="168" rx="10" fill="none" stroke="#ffb300" stroke-opacity=".5"/>
+</g>
+</svg>
