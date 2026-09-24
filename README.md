@@ -148,8 +148,8 @@ I also keep a fork of [Classipod](https://github.com/adeeteya/Classipod) by Adit
 ## Right now
 
 - Making production ready back-ends using .Net
-- Going deeper on React and Next.js
-- making things easier using agentic ai
+- Going deeper on React
+- Making things easier using Agentic ai
 
 ## Education and certificates
 
