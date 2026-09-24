@@ -51,7 +51,6 @@ I like taking an idea all the way from the database schema to a deployed app. Mo
 <img src="https://img.shields.io/badge/DRF-ff1709?style=flat-square&logo=django&logoColor=white" />
 <img src="https://img.shields.io/badge/Django_Channels-092E20?style=flat-square&logo=django&logoColor=38d9a9" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" />
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
 <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
